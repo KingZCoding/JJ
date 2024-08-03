@@ -3,6 +3,9 @@ body{
     flex-direction: column;
     margin: 0;
     padding: 0;
+    width: 100vw;
+    height: 100vw;
+    max-height: 1000px;
 }
 
 .header{
@@ -13,6 +16,11 @@ body{
     background-color: black;
     color: white;
     padding: 25px;
+}
+
+.header img{
+    width: 200px;
+    height: auto;
 }
 
 .header h1{
@@ -32,7 +40,7 @@ body{
 }
 
 .services h2{
-    font-size: 32px;
+    font-size: 36px;
     color: #131313;
     font-weight: bolder;
 }
@@ -46,6 +54,16 @@ body{
     border-radius: 10px;
     width: 200px;
     height: 200px;
+}
+
+.extra{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 42px;
+    padding: 15px;
+    text-align: center;
 }
 
 .serv-boxes{
@@ -65,4 +83,40 @@ body{
     padding: 25px;
 }
 
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #131313;
+    color: white;
+    padding: 10px;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h1{
+    font-size: 48px;
+}
+
+.contact h3{
+    font-size: 36px;
+}
+
+.contact p{
+    font-size: 24px;
+}
 
