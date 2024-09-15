@@ -1,136 +1,148 @@
-body{
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 100vw;
-    max-height: 1000px;
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vw;
+  max-height: 1000px;
 }
 
-.header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    color: white;
-    padding: 25px;
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 25px 0;
 }
 
-.header img{
-    width: 200px;
-    height: auto;
+.header img {
+  width: 200px;
+  height: auto;
 }
 
-.header h1{
-    font-size: 36px;
-    font-weight: bolder;
+.header h1 {
+  font-size: 36px;
+  font-weight: bolder;
 }
-.header p{
-    font-size: 24px;
-    font-weight: lighter;
-}
-
-.services{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.header p {
+  font-size: 24px;
+  font-weight: lighter;
 }
 
-.services h2{
-    font-size: 36px;
-    color: #131313;
-    font-weight: bolder;
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.services p{
-    font-size: 24px;
-    text-align: center;
+.services h2 {
+  font-size: 36px;
+  color: #131313;
+  font-weight: bolder;
 }
 
-.services img{
-    border-radius: 10px;
-    width: 200px;
-    height: 200px;
+.services p {
+  font-size: 24px;
+  text-align: center;
 }
 
-.extra{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    font-size: 42px;
-    padding: 15px;
-    text-align: center;
+.services img {
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
 }
 
-.serv-boxes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 10px;
+.extra {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 42px;
+  padding: 15px 0;
+  text-align: center;
 }
 
-.content{
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 25px;
+.flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 150px;
 }
 
-.contact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    background-color: #131313;
-    color: white;
-    padding: 10px;
+.flex-content {
+  flex: 1;
+  min-width: 250px;
+  box-sizing: border-box;
+  padding: 20px 0;
+  /* border: 1px solid #ccc; */
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.contact-info{
-    display: flex;
-    justify-content: space-around;
+.content img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
 }
 
-.info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 250px;
+@media (max-width: 768px) {
+  .flex-content {
+    flex-basis: 100%;
+  }
 }
 
-.contact h1{
-    font-size: 48px;
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #131313;
+  color: white;
+  padding: 10px 0;
 }
 
-.contact h3{
-    font-size: 36px;
+.contact-info {
+  display: flex;
+  justify-content: space-around;
 }
 
-.contact p{
-    font-size: 24px;
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
 }
 
-.footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
+.contact h1 {
+  font-size: 48px;
+}
+
+.contact h3 {
+  font-size: 36px;
+}
+
+.contact p {
+  font-size: 24px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
 }
 
 .container {
-    max-width: 1536px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-  
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
